@@ -1,6 +1,5 @@
 {
     "keys": {
-        "etherscan": [],
-        "google": []
-    }
+        "etherscan": ["YourApiKeyToken"]
+        }
 }

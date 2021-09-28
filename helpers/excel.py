@@ -1,13 +1,17 @@
 import pandas as pd
 # unused import but used to gen requirements.txt
 import openpyxl
+from datetime import datetime
 
-def update_balance(balance=0, time=0, usd_balance=0):
-    path = './../balance.xlsx'
+def update_balance(balance=0, usd_balance=0):
+    now = datetime.now()
+    time = now.strftime("%d/%m/%Y|%H:%M")
+    path = 'balance.xlsx'
+
     df1 = pd.DataFrame({
-        'Time': ['Timetest12314'],
-        'Balance': [1.88112],
-        'USD': ['100007344']
+        'Time': [time],
+        'Balance': [balance],
+        'USD': [usd_balance]
         })
     df2 = pd.read_excel(path, sheet_name='wallet_tracking')
     res = pd.concat([df2, df1])
