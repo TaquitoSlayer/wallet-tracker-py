@@ -6,13 +6,13 @@ First, install [python3 on your system](https://docs.python-guide.org/).<br />
 For non-windows users, install [pip3](https://raturi.in/blog/installing-python3-and-pip3-ubuntu-mac-and-windows/) like so. Windows users, just select it in the installer before clicking install.<br />
 
 Once you have that done, open your command line and navigate to your folder that you've downloaded this in and run:<br />
-```pip3 install -r requirements.txt```<br /><br />
+```pip3 install -r requirements.txt```<br />
 
 Go into wallet.json in the configs folder and edit the time_interval to something you would prefer. Change the wallet to yours as well.<br />
 e.g. 60 would mean the script will update the xlsx sheet every 60 seconds.<br /><br />
 
 After that, open a terminal/cmd in the directory that you downloaded this project and run main.py<br />
-e.g. ```python main.py```
+e.g. ```python main.py``` or
 ```python3 main.py```
 <br />
 You can edit everything but the wallet_tracking sheet.<br />
