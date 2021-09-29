@@ -1,6 +1,9 @@
 # What is this?
 This is a small script that you can use with pm2 or whatever process manager you like to track your earnings in your Ethereum wallet. This can be synced up with Google Drive giving you access to your earnings anywhere at anytime. This can be ran on a server or locally on your own computer by installing python 3+ and running pip to install requirements.txt
 
+The result:<br />
+![](https://pbs.twimg.com/media/FAfGvaJUcAALNN6?format=png&name=small)
+
 # How to use?
 First, install [python3 on your system](https://docs.python-guide.org/).<br />
 For non-windows users, install [pip3](https://raturi.in/blog/installing-python3-and-pip3-ubuntu-mac-and-windows/) like so. Windows users, just select it in the installer before clicking install.<br />
